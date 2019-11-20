@@ -10,7 +10,7 @@ while(1):
             print("Thank you")
             break
     except ValueError:
-        print("Please enter a number")
+        print("Please enter a valid number")
         
 while(1):
     try:
@@ -22,7 +22,7 @@ while(1):
             print("Thank you")
             break
     except ValueError:
-        print("Please enter a number")
+        print("Please enter a valid number")
 
 while(1):
     try:
@@ -34,7 +34,7 @@ while(1):
             print("Thank you")
             break
     except ValueError:
-        print("Please enter a number")
+        print("Please enter a valid number")
 
 total_mark = homework*0.25 + assessment*0.35 + exam*0.4
 total_percentage = float(total_mark/63.75*100)
